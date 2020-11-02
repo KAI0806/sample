@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+body {
+    font-family: "Avenir Next";
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style: none;
+}
+
+/* ヘッダー */
+.space{
+    background-color:#C0D85B;
+    height: 3px;
+}
+
+header{
+    margin: 15px 100px 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 20%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    margin-left: 20px;
+}
+
+header a:hover{
+    color: #C0D85B;
+}
+
+/* メイン */
+main{
+    background: url(paper_bg.jpg);
+}
+
+.requset{
+    display: inline;
+    background-color: #C0D85B;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 400px;
+    padding: 1em 5em;
+    border: 2px solid #9eb34b;
+    text-shadow: 0px 0px 4px #555;
+    box-shadow: 0px -20px 30px 0px rgba(0,0,0,0.4) inset;
+    margin: 50px 0;
+}
+
+.requset:hover{
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.4) inset;
+}
+
+.eyeCatch{
+    background: url(eye_bg.png);
+    text-align: center;
+    height: 450px;
+    background-size: cover;
+	background-repeat: no-repeat;
+    color: white;
+    padding-block-start: 100px;
+}
+
+.eyeCatch img{
+    width: 25%;
+}
+
+h1{
+    text-shadow: 0px 0px 4px black;
+    font-size: 300%;
+    margin:0 0 30px 0;
+}
+
+/* サービス紹介 */
+.contants{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.contant{
+    width: 25%;
+    margin: auto 20px;
+}
+
+.contant a:hover{
+    opacity: 0.5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px 0 30px 0;
+}
+
+h3{
+    color: #C16C9D;
+}
+
+.info, .sideMenu{
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    background: white;
+    margin: 0 10px;
+    padding: 1em;
+}
+
+/* Q&A */
+.info{
+    width: 55%;
+    padding: 1em;
+}
+
+.info span{
+    font-weight: bold;
+}
+
+.info h3{
+    color: #555;
+    border-bottom: 1px dotted #555;
+    text-align: left;
+}
+
+.question{
+    font-weight: bold;
+}
+
+.info p{
+    text-align: left;
+}
+
+.FAQ{
+    margin-bottom: 30px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+/* サイドメニュー */
+.sideMenu{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.sideMenu a{
+    border-bottom: 1px dotted #555;
+    padding: 1em;
+}
+
+footer{
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
